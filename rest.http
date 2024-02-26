@@ -1,0 +1,9 @@
+GET http://localhost:3000/jwks
+
+
+### /auth request
+POST  http://localhost:3000/auth?kid=key1
+
+
+### Request a JWT using an expired key explicitly setting expired=true
+POST http://localhost:3000/auth?kid=key1&expired=true
