@@ -1,0 +1,1 @@
+you will need to download json package, and have a node_modules file. Also, you will need to download git.
